@@ -7,8 +7,7 @@ public class TypeCast {
 		int i = 10;
 		long l = i;
 		// 타입의 형태가 다른데 입력이 되었음
-		System.out.println(i + ":" +l);
-		
+		System.out.println(i + ":" + l);
 		
 		long l2 = 1234567890L; 
 		// int i2 = l2; 오류발생 int(4byte), long(8byte)
